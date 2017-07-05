@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Chemical Inventory-India</title>
+		<link rel="stylesheet" type="text/css" href="css/theme.css">
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="container">
+				<div class="nav-items-holder">
+					<div class="nav-items"><a href="#"> <img src="./MyGov Innovation _ Innovation Challenge for Disaster Risk Reduction_files/logo.png" style="width:40px; height:60px;" alt=""> </a></div>
+					<div class="nav-items">
+						<ul class="top-nav-menu">
+							<li><a href="#">Chemicals</a><span></span></li>
+							<li><a href="#">Manufacture</a><span></span></li>
+							<li><a href="#">Transportation</a><span></span></li>
+							<li><a href="#">Register Notify</a><span></span></li>
+						</ul>
+					</div>
+					<div class="nav-items">
+						<input type="search" name="q" class="search-box" placeholder="Search"  />
+					</div>
+					<div >
+						
+						<form action="uploadDetails" method="post">
+						<table>
+						<tr><td><h1>Identity of Chemical</h1></td></tr>
+						<tr><td><label>MARKETING NAME(S):</label></td><td><input type="text" name="MARKETING NAME(S)" required/></td></tr>
+						<tr><td><label>CAS NUMBER:</label></td><td><input type="text" name="CAS NUMBER" required/></td></tr>
+						<tr><td><label>CHEMICAL NAME:</label></td><td><input type="text" name="CHEMICAL NAME" required/></td></tr>
+						<tr><td><label>OTHER NAME(S):</label></td><td><input type="text" name="OTHER NAME(S)" required/></td></tr>
+						<tr><td><label>MOLECULAR FORMULA:</label></td><td><input type="text" name="MOLECULAR FORMULA" required/></td></tr>
+						<tr><td><label>STRUCTURAL FORMULA:</label></td><td><input type="text" name="STRUCTURAL FORMULA" required/></td></tr>			
+						<tr><td><label>MOLECULAR WEIGHT:</label></td><td><ul>
+							<li><label>Number Average Molecular Weight(Mn):</label><input type="text" name="Number Average Molecular Weight(Mn)" required/></li>
+							<li><label>Weight Average Molecular Weight(Mw):</label><input type="text" name="Weight Average Molecular Weight(Mw)" required/></li>
+							<li><label>% of Low MW Species < 1000 DA:</label><input type="text" name="% of Low MW Species < 1000 DA" required/></li>
+							<li><label>% of Low MW Species < 500 DA:</label><input type="text" name="% of Low MW Species < 500 DA" required/></li>
+						</u></ul></td></tr>
+						<tr><td><h1>Composition</h1></td></tr>
+						<tr><td><label>DEGREE OF PURITY:</label></td><td><input type="text" name="DEGREE OF PURITY" required/></td></tr>
+						<tr><td><label>HAZARDOUS IMPURITIES/RESIDUAL MONOMERS(if none write 'NONE'):</label></td><td><input type="text" name="HAZARDOUS IMPURITIES/RESIDUAL MONOMERS(if none write 'NONE')" required/></td></tr>
+						<tr><td><label>NON HAZARDOUS IMPURITIES/RESIDUAL MONOMERS(if none write 'NONE'):</label></td><td><input type="text" name="NON HAZARDOUS IMPURITIES/RESIDUAL MONOMERS(if none write 'NONE'):" required/></td></tr>
+						<tr><td><h1>INTRODUCTION AND USE INFORMATION</h1></td></tr>
+						<table>
+						<thead><td colspan="5"><h4>MAXIMUM INTRODUCTION VOLUME OF NOTIFIED CHEMICAL(100%) OVER NEXT FICE YEARS</h4></h4></td></thead>
+						<tr><td>YEAR</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
+						<tr><td>Tonnes</td><td><input type="text" name="Tonnes1"/></td><td><input type="text" name="Tonnes2"/></td><td><input type="text" name="Tonnes3"/></td><td><input type="text" name="Tonnes4"/></td><td><input type="text" name="Tonnes5"/></td></tr>
+						</table>
+						<tr><td colspan="2"><center><input type="submit"/></center></td></tr>
+						</table>				
+						</form>
+					</div>
+					
+					
+				</div>
+			</div>
+		</nav>
+	</body>
+</html>
